@@ -1,5 +1,5 @@
 # SonarWiper
-You can opt-out collecting usage statistics of every Adobe product (ie. Adobe Photoshop) with SonarWiper.
+You can opt-out collecting usage statistics of every Adobe product (ie. Adobe Photoshop) using SonarWiper.
 
 ## What we know (about Sonar folder):
 
