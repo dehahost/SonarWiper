@@ -1,5 +1,5 @@
 # SonarWiper
-You can opt-out collecting usage statistics of every Adobe product (ie. Adobe Photoshop) using SonarWiper.
+You can opt-out collecting usage statistics of every Adobe product (for example Adobe Photoshop) using SonarWiper.
 
 ## What we know (about Sonar folder):
 
@@ -14,7 +14,7 @@ SonarWiper have two modes of getting rid of Adobe's product usage statistics:
 2. Automated mode
 
 ### Normal mode
-Normal mode is executed when you run `sonarwiper.exe` without any arguments. SonarWiper just recursively deletes your Sonar folder inside `%AppData%\Adobe\` folder and that's all.
+Normal mode is executed when you run `sonarwiper.exe` without any arguments. SonarWiper just recursively deletes your Sonar folder inside `%AppData%\Adobe\` folder and that is all.
 
 This mode is useful, if you are making more advanced application for managing Adobe's files and apps or you just want a one-time wipe tool that you can run on demand.
 
@@ -28,7 +28,7 @@ This mode is useful, if you want to opt-out Adobe's product usage statistics for
 - [ ] **1a)** Download the latest relese.
 - [ ] **1b)** Clone this repo and compile C# code located inside `project` folder (using Visual Studio or alternative .NET IDE or using only the C# compiler).
 - [ ] **2)** Run downloaded/compiled executable called `sonarwiper.exe` with `/stay` argument.
-- [ ] **3)** Now SonarWiper is watching Sonar folder and each time statistics are created and written, the program will delete Sonar folder immediately (after short 50 ms period of inactivity).
+- [ ] **3)** Now SonarWiper is watching Sonar folder and each time statistics are created and written, the program will delete Sonar folder immediately (after short 50 ms period of inactivity of course).
 
 ### Alternatively...
-You can alse create a sheduled task, that will run `sonarwiper.exe` with `/stay` argument every time a certain user is logged in. Its more permanent way to opt-out.
+You can also create a sheduled task, that will run `sonarwiper.exe` with `/stay` argument every time a certain user is logged in. It is more permanent way to opt-out.
